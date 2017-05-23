@@ -14,6 +14,9 @@ div.Education {
     /*font-family: "Calibri";*/
     text-indent: left;
 }
+div.bullets {
+    text-align: center;
+}
 img{
     /*border-radius: 50%;*/
     margin: auto;
