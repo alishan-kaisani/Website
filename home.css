@@ -4,15 +4,18 @@ h1 {
 }
 body {
     background-color: lightblue;
-    color: white;
+    color: black;
     font-family: "Arial";
+}
+div.obj-text {
+    text-align: right;
 }
 div.Education {
     /*font-family: "Calibri";*/
     text-indent: left;
 }
 img{
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     margin: auto;
     display: block;
 }
