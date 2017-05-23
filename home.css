@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    transform: rotate(90);
+}
+body {
+    background-color: lightblue;
+    color: white;
+    font-family: "Arial";
+}
+div.Education {
+    /*font-family: "Calibri";*/
+    text-indent: left;
+}
+img{
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+p {
+    text-align: left;
+}
