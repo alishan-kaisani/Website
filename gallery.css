@@ -6,6 +6,6 @@ body {
 h1 {
     text-align: center;
 }
-div.snake-info {
+div.gba-info, div.bsnap-info {
     text-align: center;
 }
