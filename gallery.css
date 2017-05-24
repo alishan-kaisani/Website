@@ -1,0 +1,11 @@
+body {
+    background-color: lightblue;
+    color: black;
+    font-family: "Times New Roman";
+}
+h1 {
+    text-align: center;
+}
+div.snake-info {
+    text-align: center;
+}
