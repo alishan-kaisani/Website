@@ -12,6 +12,9 @@ img{
     margin: auto;
     display: block;
 }
+div.aboutme {
+    text-align: center;
+}
 p {
     text-align: left;
 }
