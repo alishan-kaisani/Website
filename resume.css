@@ -1,0 +1,15 @@
+body {
+    background-color: lightblue;
+    color: black;
+    font-family: "Arial";
+}
+div.bullets {
+    /*text-align: center;*/
+    padding-left: 30px;
+}
+.left {
+    float:left;
+}
+.right {
+    float: right;
+}
