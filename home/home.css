@@ -7,27 +7,8 @@ body {
     background-size: cover;
     background-color: #bf8040;
     height: 100%;
-    color: #1f1f1f;
+    color: #2f2f2f;
     font-family: "Lato", sans-serif;
-}
-div.tab {
-    border: none;
-    background-color: transparent;
-    outline: none;
-    width: 350px;
-    height: 45px;
-    margin: auto;
-    padding-top: 0px;
-}
-div.tab button {
-    background-color: transparent;
-    font-size: 20px;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    margin:auto;
-    padding: 14px 16px;
 }
 div.title {
     display: block;
@@ -40,8 +21,46 @@ div.title {
 }
 div.link-container {
     margin: auto;
-    padding-top: 30px;
+    padding-top: 40px;
     width: 100px;
     left: 625px;
     top: 175px;
+}
+div.tab {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 375px;
+    height: 45px;
+    margin: auto;
+    /*padding-left: 0px;*/
+}
+div.tab button {
+    background-color: transparent;
+    font-size: 22px;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin:auto;
+    padding: 14px 16px;
+}
+a.site-links {
+    font-size: 24px;
+}
+a.site-links:link {
+    color: black;
+    text-decoration: none;
+}
+a.site-links:visited {
+    color: black;
+    text-decoration: none;
+}
+a.site-links:hover {
+    color: green;
+    text-decoration: none;
+}
+a.site-links:active {
+    color: red;
+    text-decoration: none;
 }
