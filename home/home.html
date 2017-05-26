@@ -3,10 +3,31 @@
     <head>
         <title>Home page</title>
         <link rel="stylesheet" href="home.css">
-         <!-- <script>type='text/javascript' src='file://home.js' </script> -->
+         <script type='text/javascript' src='./home.js'></script>
     </head>
     <body>
         <h1>Alishan K. Kaisani</h1>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'test1')">About Me</button>
+            <button class="tablinks" onclick="openTab(event,'test2')">Resume</button>
+            <button class="tablinks" onclick="openTab(event,'test3')">Gallery</button>
+        </div>
+        <div id="test1" class="tabcontent">
+            <span onclick="this.parentElement.style.display='none'" class="tabclose">x</span>
+            <h3>Test1</h3>
+            <p>Test1 paragraph</p>
+        </div>
+        <div id="test2" class="tabcontent">
+            <span onclick="this.parentElement.style.display='none'" class="tabclose">x</span>
+            <h3>Test2</h3>
+            <p>Test2 paragraph</p>
+        </div>
+        <div id="test3" class="tabcontent">
+            <span onclick="this.parentElement.style.display='none'" class="tabclose">x</span>
+            <h3>Test3</h3>
+            <p>Test3 paragraph</p>
+        </div>
+        <br>
         <div class="flex-container">
             <div class="flex-item">
                 <div class="aboutme">
@@ -16,11 +37,11 @@
             </div>
             <div class="flex-item">
                 <div class="img">
-                    <img clas="Ali" src="./images/suit.jpg" width="200" height="400"></img>
+                    <img clas="Ali" src="../images/suit.jpg" width="200" height="400"></img>
                 </div>
                 <div>
-                    <a href="http://linkedin.com/in/alishankaisani"><img src ="./images/linkedin.png" width="50" height="50"></img></a>
-                    <a href="https://github.com/alishan-kaisani"><img src="./images/github.png" width="50" height="50"></img></a>
+                    <a href="http://linkedin.com/in/alishankaisani"><img src ="../images/linkedin.png" width="50" height="50"></img></a>
+                    <a href="https://github.com/alishan-kaisani"><img src="../images/github.png" width="50" height="50"></img></a>
                 </div>
                 <p style="clear: both;"></p>
             </div>

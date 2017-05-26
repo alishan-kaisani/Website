@@ -1,10 +1,54 @@
+html {
+    overflow: hidden;
+    height: 100%
+}
 h1 {
     text-align: center;
 }
 body {
-    background-color: lightblue;
-    color: black;
-    font-family: "Times New Roman";
+    height: 100%;
+    overflow: hiddden;
+    background-color: #bf8040;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 265px;
+    height: 45px;
+    margin: auto;
+}
+div.tab button {
+    background-color: inherit;
+    font-size: 15px;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+div.tab button.active {
+    background-color: #ccc;
+}
+div.tab button:hover {
+    background-color: #ddd;
+}
+.tabclose {
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+}
+.tabclose:hover {
+    color: red;
+}
+div.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
 }
 .flex-container {
     display: -webkit-flex;
@@ -13,11 +57,11 @@ body {
     flex-direction: row;
     width: 1024px;
     height: 734px;
-    padding-left: 150px;
+    margin: auto;
 }
 .flex-item {
     width: 600px;
-    height: 600px;
+    height: 500px;
     margin: 1px;
     /*padding-left: 100px;*/
 }
