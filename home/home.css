@@ -5,7 +5,7 @@ html {
 body {
     background-image: url("../images/cover.jpg");
     background-size: cover;
-    background-color: #bf8040;
+    background-color: lightblue;
     height: 100%;
     color: #1f1f1f;
     font-family: "Lato", sans-serif;
