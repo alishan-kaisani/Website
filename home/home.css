@@ -7,7 +7,7 @@ body {
     background-size: cover;
     background-color: #bf8040;
     height: 100%;
-    color: #2f2f2f;
+    color: #1f1f1f;
     font-family: "Lato", sans-serif;
 }
 div.title {
@@ -22,9 +22,14 @@ div.title {
 div.link-container {
     margin: auto;
     padding-top: 40px;
-    width: 100px;
+    width: 130px;
     left: 625px;
     top: 175px;
+}
+img.link {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
 }
 div.tab {
     border: none;
@@ -45,12 +50,28 @@ div.tab button {
     margin:auto;
     padding: 14px 16px;
 }
+/*a.social-link {
+    color: gray;
+}*/
+a.social-link:link {
+    color: gray;
+}
+a.social-link:visited {
+    color: gray;
+}
+a.social-link:hover {
+    color: black
+}
+a.social-link:active {
+    color: black
+}
 a.site-links {
     font-size: 24px;
 }
 a.site-links:link {
     color: black;
     text-decoration: none;
+    transition-duration: 0.5s;
 }
 a.site-links:visited {
     color: black;
@@ -63,4 +84,5 @@ a.site-links:hover {
 a.site-links:active {
     color: red;
     text-decoration: none;
+    transition-duration: 0s;
 }

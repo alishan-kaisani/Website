@@ -1,7 +1,7 @@
 body {
     background-color: lightblue;
-    color: black;
-    font-family: "Times New Roman";
+    color: #1f1f1f;
+    font-family: "Lato", sans-serif;
 }
 h1 {
     text-align: center;

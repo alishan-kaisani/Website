@@ -1,7 +1,7 @@
 body {
     background-color: lightblue;
-    color: black;
-    font-family: "Times New Roman";
+    color: #1f1f1f;
+    font-family: "Lato", sans-serif;
 }
 div.bullets {
     /*text-align: center;*/
@@ -12,4 +12,23 @@ div.bullets {
 }
 .right {
     float: right;
+}
+div.color {
+    color: red;
+    /*font-size: 18px;*/
+    margin: none;
+    width: none;
+}
+a:active {
+    color: green;
+}
+a:link {
+    color: green;
+}
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    color: green;
 }
