@@ -9,3 +9,39 @@ h1 {
 div.gba-info, div.bsnap-info {
     text-align: center;
 }
+footer {
+    position: relative;
+    bottom: 5px;
+    margin: auto;
+    width: 1300px;
+    height: 30px;
+}
+div.footerbox {
+    text-align: center;
+    font-size: 15px;
+    margin: auto;
+    width: 400px;
+    height: 20px;
+}
+a.site-links {
+    padding: 5px;
+    background-color: rgba(0,0,0,0.7);
+}
+a.site-links:link {
+    color: green;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+a.site-links:visited {
+    color: white;
+    text-decoration: none;
+}
+a.site-links:hover {
+    color: green;
+    text-decoration: none;
+}
+a.site-links:active {
+    color: red;
+    text-decoration: none;
+    transition-duration: 0s;
+}
