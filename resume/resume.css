@@ -7,6 +7,18 @@ div.bullets {
     /*text-align: center;*/
     padding-left: 30px;
 }
+a.beesnap:active {
+    color: green;
+}
+a.beesnap:link {
+    color: green;
+}
+a.beesnap:visited {
+    color: inherit;
+}
+a.beesnap:hover {
+    color: green;
+}
 .left {
     float:left;
 }
@@ -19,16 +31,39 @@ div.color {
     margin: none;
     width: none;
 }
-a:active {
-    color: green;
+footer {
+    position: relative;
+    bottom: 5px;
+    margin: auto;
+    width: 1325px;
+    height: 30px;
 }
-a:link {
-    color: green;
+div.footerbox {
+    text-align: center;
+    font-size: 15px;
+    margin: auto;
+    width: 400px;
+    height: 20px;
 }
-a:visited {
+a.site-links {
+    padding: 5px;
+    background-color: rgba(0,0,0,0.7);
+}
+a.site-links:link {
+    color: green;
     text-decoration: none;
-    color: inherit;
+    transition-duration: 0.5s;
 }
-a:hover {
+a.site-links:visited {
+    color: white;
+    text-decoration: none;
+}
+a.site-links:hover {
     color: green;
+    text-decoration: none;
+}
+a.site-links:active {
+    color: red;
+    text-decoration: none;
+    transition-duration: 0s;
 }
