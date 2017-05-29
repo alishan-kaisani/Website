@@ -35,10 +35,10 @@ div.tab {
     border: none;
     background-color: transparent;
     outline: none;
-    width: 375px;
+    width: 335px;
     height: 45px;
     margin: auto;
-    /*padding-left: 0px;*/
+    padding-left: 25px;
 }
 div.tab button {
     background-color: transparent;
@@ -48,22 +48,7 @@ div.tab button {
     outline: none;
     cursor: pointer;
     margin:auto;
-    padding: 14px 16px;
-}
-/*a.social-link {
-    color: gray;
-}*/
-a.social-link:link {
-    color: gray;
-}
-a.social-link:visited {
-    color: gray;
-}
-a.social-link:hover {
-    color: black
-}
-a.social-link:active {
-    color: black
+    padding: 12px 14px;
 }
 a.site-links {
     font-size: 24px;
