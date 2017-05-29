@@ -1,0 +1,78 @@
+html {
+    overflow: hidden;
+    height: 100%
+}
+body {
+    background-image: url("../images/cover-m.jpg");
+    background-size: cover;
+    background-color: lightblue;
+    height: 100%;
+    color: #1f1f1f;
+    font-family: "Lato", sans-serif;
+}
+div.title {
+    display: block;
+    margin:auto;
+    /*padding-top: 35px;*/
+    width: 500px;
+    text-align: center;
+    transform: scale(1.8,1.8);
+    font-size: 25px;
+    position: relative;
+    top: 14%;
+}
+div.link-container {
+    margin: auto;
+    /*padding-top: 40px;*/
+    width: 225px;
+    position: relative;
+    /*left: 625px;*/
+    top: 14%;
+}
+img.link {
+    margin: 5px;
+    width: 100px;
+    height: 100%;
+}
+div.tab {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 500px;
+    height: 45px;
+    margin: auto;
+    /*padding-left: 25px;*/
+    position: relative;
+    top: 15%
+}
+div.tab button {
+    background-color: transparent;
+    font-size: 22px;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin:auto;
+    padding: 14px 16px;
+}
+a.site-links {
+    font-size: 40px;
+}
+a.site-links:link {
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+a.site-links:visited {
+    color: black;
+    text-decoration: none;
+}
+a.site-links:hover {
+    color: green;
+    text-decoration: none;
+}
+a.site-links:active {
+    color: red;
+    text-decoration: none;
+    transition-duration: 0s;
+}
