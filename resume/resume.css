@@ -3,6 +3,9 @@ body {
     color: #1f1f1f;
     font-family: "Lato", sans-serif;
 }
+div.text {
+    font-size: 16px;
+}
 div.bullets {
     /*text-align: center;*/
     padding-left: 30px;
@@ -21,9 +24,13 @@ a.beesnap:hover {
 }
 .left {
     float:left;
+    margin-top: none;
+    margin-bottom: none;
 }
 .right {
     float: right;
+    margin-top: none;
+    margin-bottom: none;
 }
 div.color {
     color: red;
@@ -35,7 +42,7 @@ footer {
     position: relative;
     bottom: 5px;
     margin: auto;
-    width: 1325px;
+    width: 90%;
     height: 30px;
 }
 div.footerbox {
