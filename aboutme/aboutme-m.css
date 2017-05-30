@@ -2,7 +2,7 @@ html {
     height: 100%;
 }
 body {
-    background-image:  url("../images/transparent.png"), url("../images/tech.jpg");
+    background-image:  url("../images/transparent.png"), url("../images/tech-m.jpg");
     background-size: cover, cover;
     background-color: lightblue;
     color: black;
@@ -10,9 +10,9 @@ body {
 }
 h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 80px;
     position: relative;
-    top: 15px;
+    top: 60px;
 }
 div.flex-container {
     display: flex;
@@ -23,19 +23,19 @@ div.flex-item-1 {
     height: 500px;
     margin: auto;
     position: relative;
-    top: -50px;
+    top: 60px;
 }
 div.flex-item-2 {
     background-color: rgba(0,0,0,0.15);
     /*opacity: 0.5;*/
     width: 450px;
-    height: 400px;
+    height: 480px;
     margin: auto;
     font-size: 15px;
     text-align: center;
     position: relative;
-    top: -50px;
-    left: 60px;
+    top: 70px;
+    left: 80px;
     /*padding-right: 50px;*/
 }
 img.main {
@@ -44,7 +44,7 @@ img.main {
     /*height: auto;*/
     transform: scale(1.2,1.2);
     position: relative;
-    left: 65px;
+    left: 155px;
     top: 100px;
     /*padding-left: 150px;*/
     /*padding-right: 30px;*/
@@ -61,6 +61,7 @@ div.text {
     top: 20px;
     text-align: center;
     padding: 20px;
+    font-size: 20px;
 }
 /*img.img-2 {
     margin: auto;
@@ -74,7 +75,7 @@ footer {
     position: fixed;
     bottom: 15px;
     margin: auto;
-    width: 1350px;
+    width: 100%;
     height: 30px;
 }
 div.footerbox {
