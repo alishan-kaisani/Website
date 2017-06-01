@@ -4,6 +4,12 @@ body {
     font-family: "Lato", sans-serif;
     font-size: 16px;
 }
+h2 {
+    -webkit-margin-after: 0;
+}
+hr {
+    border-style: solid;
+}
 a.resume:active {
     color: black;
     cursor: default;
@@ -24,7 +30,7 @@ a.resume:hover {
     cursor: default;
     text-decoration: none;
 }
-div.bullets {
+.bullets {
     padding-left: 30px;
 }
 a.beesnap:active {
@@ -47,10 +53,8 @@ a.beesnap:hover {
     float: right;
     font-size: 16px;
 }
-div.color {
+.color {
     color: red;
-    margin: none;
-    width: none;
 }
 footer {
     /*position: relative;
@@ -59,7 +63,7 @@ footer {
     width: 90%;
     height: 30px;
 }
-div.footerbox {
+.footerbox {
     text-align: center;
     font-size: 15px;
     margin: auto;
@@ -68,6 +72,7 @@ div.footerbox {
 }
 a.site-links {
     padding: 5px;
+    background-color: gray;
     background-color: rgba(0,0,0,0.7);
 }
 a.site-links:link {
