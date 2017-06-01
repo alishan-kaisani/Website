@@ -5,7 +5,7 @@ body {
     background-image:  url("../images/transparent.png"), url("../images/tech.jpg");
     background-size: cover, cover;
     background-color: lightblue;
-    color: black;
+    color: white;
     font-family: "Lato", sans-serif;
 }
 h1 {
@@ -13,68 +13,48 @@ h1 {
     font-size: 50px;
     position: relative;
     top: 15px;
+    margin-left: auto;
+    width: 100%;
 }
 div.flex-container {
     display: flex;
 }
 div.flex-item-1 {
-    /*background-color: white;*/
     width: 500px;
     height: 500px;
     margin: auto;
     position: relative;
-    top: -50px;
+    top: -20px;
 }
 div.flex-item-2 {
-    background-color: rgba(0,0,0,0.15);
-    /*opacity: 0.5;*/
+    background-color: rgba(0,0,0,0.3);
     width: 450px;
-    height: 400px;
+    height: 300px;
     margin: auto;
     font-size: 15px;
     text-align: center;
     position: relative;
     top: -50px;
-    left: 60px;
-    /*padding-right: 50px;*/
+    left: 100px;
 }
 img.main {
     margin: auto;
-    /*width: auto;*/
-    /*height: auto;*/
     transform: scale(1.2,1.2);
     position: relative;
     left: 65px;
     top: 100px;
-    /*padding-left: 150px;*/
-    /*padding-right: 30px;*/
-    /*padding-top: 100px;*/
 }
-/*img.wreck {
-    position: relative;
-    margin: auto;
-    top: -30px;
-    transform: scale(0.5,0.5)
-}*/
 div.text {
     position: relative;
     top: 20px;
     text-align: center;
     padding: 20px;
 }
-/*img.img-2 {
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 115px;
-    padding-left: 40px;
-    padding-right: 40px;
-    transform: scale(1.2,1.2);
-}*/
 footer {
     position: fixed;
     bottom: 15px;
-    margin: auto;
-    width: 1350px;
+    /*margin: auto;*/
+    width: 98%;
     height: 30px;
 }
 div.footerbox {
