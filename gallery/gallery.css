@@ -4,9 +4,7 @@ html {
 }
 body {
     background-color: #b3e6ff;
-    background-image: url("../images/arabesque.png");    
-    /*, url("../images/transparent.png");*/
-    /*background-color: #b3e6ff;*/
+    background-image: url("../images/arabesque.png");
     color: #1f1f1f;
     font-family: "Lato", sans-serif;
     font-size: 17px;
@@ -17,6 +15,9 @@ h1 {
 }
 hr {
     border-style: dashed;
+}
+.mobile {
+    display: none;
 }
 .gba-info, .bsnap-info {
     text-align: justify;
