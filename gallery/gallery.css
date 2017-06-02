@@ -1,13 +1,36 @@
+html {
+    width: 80%;
+    margin: auto;
+}
 body {
     background-color: #b3e6ff;
     color: #1f1f1f;
     font-family: "Lato", sans-serif;
+    font-size: 17px;
 }
 h1 {
     text-align: center;
 }
 .gba-info, .bsnap-info {
+    text-align: justify;
+}
+.image-container {
     text-align: center;
+}
+.images {
+    display: inline-block;
+}
+.gba-link:link {
+    color: black;
+}
+.gba-link:hover {
+    color: green;
+}
+.gba-link:visited {
+    color: black;
+}
+.gba-link:active {
+    color: red;
 }
 footer {
     /*position: relative;*/
