@@ -24,8 +24,8 @@ hr {
     height: 1100px;
 }
 .gba-images {
-    width: 530px;
-    height: 400px;
+    width: 650px;
+    height: 500px;
 }
 /* Slideshow container */
 .bs-slideshow-container {
@@ -34,7 +34,7 @@ hr {
   margin: auto;
 }
 .gba-slideshow-container {
-    max-width: 530px;
+    max-width: 650px;
     position: relative;
     margin: auto;
 }
@@ -54,6 +54,7 @@ hr {
 }
 .gba-prev,.gba-next {
     background-color: black;
+    background-color: rgba(0,0,0,0.4);
     color: white;
     top: 40%;
     padding: 0 5px;
