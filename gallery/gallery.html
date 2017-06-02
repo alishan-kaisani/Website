@@ -25,26 +25,26 @@
                     </div>
                 </div>
                 <div class="mobile">
-                    <div class="slideshow-container">
-                        <div class="slides fade">
+                    <div class="bs-slideshow-container">
+                        <div class="bs-slides fade">
                             <div class="numbertext">1 / 2</div>
                             <img class="bs-images" src="../images/beesnap/beesnap-1.png">
                             <div class="text">Questionaire based on dichotomous key</div>
                       </div>
 
-                      <div class="slides fade">
+                      <div class="bs-slides fade">
                         <div class="numbertext">2 / 2</div>
                         <img class="bs-images" src="../images/beesnap/beesnap-2.png">
                         <div class="text">Home page with camera functionality demonstrated</div>
                       </div>
 
-                      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                      <a class="bs-prev" onclick="plusSlides(-1, 'bs')">&#10094;</a>
+                      <a class="bs-next" onclick="plusSlides(1, 'bs')">&#10095;</a>
                     </div>
 
                     <div style="text-align:center">
-                      <span class="dot" onclick="currentSlide(1)"></span>
-                      <span class="dot" onclick="currentSlide(2)"></span>
+                      <span class="bs-dot" onclick="currentSlide(1, 'bs')"></span>
+                      <span class="bs-dot" onclick="currentSlide(2, 'bs')"></span>
                     </div>
                 </div>
             </div>
@@ -75,33 +75,72 @@
                 SCORES START FROM 1 BECAUSE EVERYONE IS A WINNER! "
                 <br>
                 <br>
-                <div class="image-container">
-                    <div id="gba" class="images">
-                        <img src="../images/snake/snake-4.png" alt="GBA gameplay" width="325" height="250"></img>
-                        <img src="../images/snake/snake-1.png" alt="GBA gameplay" width="325" height="250"></img>
-                        <br>
-                        <img src="../images/snake/snake-2.png" alt="GBA gameplay" width="325" height="250"></img>
-                        <img src="../images/snake/snake-3.png" alt="GBA gameplay" width="325" height="250"></img>
+                <div class="laptop">
+                    <div class="image-container">
+                        <div id="gba" class="images">
+                            <img src="../images/snake/snake-4.png" alt="GBA gameplay" width="325" height="250"></img>
+                            <img src="../images/snake/snake-1.png" alt="GBA gameplay" width="325" height="250"></img>
+                            <br>
+                            <img src="../images/snake/snake-2.png" alt="GBA gameplay" width="325" height="250"></img>
+                            <img src="../images/snake/snake-3.png" alt="GBA gameplay" width="325" height="250"></img>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile">
+                    <div class="gba-slideshow-container">
+                        <div class="gba-slides fade">
+                            <div class="numbertext">1 / 4</div>
+                            <img class="gba-images" src="../images/snake/snake-4.png">
+                            <div class="text">Questionaire based on dichotomous key</div>
+                        </div>
+
+                        <div class="gba-slides fade">
+                          <div class="numbertext">2 / 4</div>
+                          <img class="gba-images" src="../images/snake/snake-1.png">
+                          <div class="text">Questionaire based on dichotomous key</div>
+                        </div>
+
+                        <div class="gba-slides fade">
+                            <div class="numbertext">3 / 4</div>
+                            <img class="gba-images" src="../images/snake/snake-2.png">
+                            <div class="text">Questionaire based on dichotomous key</div>
+                        </div>
+
+                        <div class="gba-slides fade">
+                            <div class="numbertext">4 / 4</div>
+                            <img class="gba-images" src="../images/snake/snake-3.png">
+                            <div class="text">Questionaire based on dichotomous key</div>
+                        </div>
+
+                      <a class="gba-prev" onclick="plusSlides(-1,'gba')">&#10094;</a>
+                      <a class="gba-next" onclick="plusSlides(1,'gba')">&#10095;</a>
+                    </div>
+                    <div style="text-align:center">
+                      <span class="gba-dot" onclick="currentSlide(1,'gba')"></span>
+                      <span class="gba-dot" onclick="currentSlide(2,'gba')"></span>
+                      <span class="gba-dot" onclick="currentSlide(3,'gba')"></span>
+                      <span class="gba-dot" onclick="currentSlide(4,'gba')"></span>
                     </div>
                 </div>
             </div>
         </div>
         <script>
             var slideIndex = 1;
-            showSlides(slideIndex);
+            showSlides(slideIndex,"gba");
+            showSlides(slideIndex,"bs")
 
-            function plusSlides(n) {
-              showSlides(slideIndex += n);
+            function plusSlides(n,type) {
+              showSlides(slideIndex += n,type);
             }
 
-            function currentSlide(n) {
-              showSlides(slideIndex = n);
+            function currentSlide(n,type) {
+              showSlides(slideIndex = n,type);
             }
 
-            function showSlides(n) {
+            function showSlides(n, type) {
               var i;
-              var slides = document.getElementsByClassName("slides");
-              var dots = document.getElementsByClassName("dot");
+              var slides = document.getElementsByClassName(type+"-slides");
+              var dots = document.getElementsByClassName(type+"-dot");
               if (n > slides.length) {
                   slideIndex = 1
               }
