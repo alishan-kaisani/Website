@@ -13,9 +13,17 @@ hr {
 .top {
     text-align: center;
 }
+.linkedin {
+    width: 80px;
+    height: 80px;
+}
 button {
-    width: 15px;
-    height: 15px;
+    width: 120px;
+    height: 30px;
+}
+.resume {
+    font-size: 15px;
+    text-align: center;
 }
 .text {
     font-size: 12px;
