@@ -1,7 +1,7 @@
-html {
-    /*overflow: hidden;*/
-    /*height: 100%*/
-}
+/*html {
+    overflow: hidden;
+    height: 100%
+}*/
 body {
     background-image: url("../images/cover.jpg");
     background-size: cover;
@@ -10,7 +10,7 @@ body {
     color: #1f1f1f;
     font-family: "Lato", sans-serif;
 }
-div.title {
+.title {
     display: block;
     margin:auto;
     padding-top: 35px;
@@ -19,19 +19,19 @@ div.title {
     transform: scale(1.8,1.8);
     font-size: 20px;
 }
-div.link-container {
+.link-container {
     margin: auto;
     padding-top: 40px;
     width: 130px;
     left: 625px;
     top: 175px;
 }
-img.link {
+.link {
     margin: 5px;
     width: 50px;
     height: 50px;
 }
-div.tab {
+.tab {
     border: none;
     background-color: transparent;
     outline: none;
@@ -40,7 +40,7 @@ div.tab {
     margin: auto;
     padding-left: 25px;
 }
-div.tab button {
+.tab button {
     background-color: transparent;
     font-size: 22px;
     float: left;

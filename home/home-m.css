@@ -10,7 +10,7 @@ body {
     color: #1f1f1f;
     font-family: "Lato", sans-serif;
 }
-div.title {
+.title {
     display: block;
     margin:auto;
     /*padding-top: 35px;*/
@@ -21,7 +21,7 @@ div.title {
     position: relative;
     top: 14%;
 }
-div.link-container {
+.link-container {
     margin: auto;
     /*padding-top: 40px;*/
     width: 225px;
@@ -29,12 +29,12 @@ div.link-container {
     /*left: 625px;*/
     top: 14%;
 }
-img.link {
+.link {
     margin: 5px;
     width: 100px;
     height: 100%;
 }
-div.tab {
+.tab {
     border: none;
     background-color: transparent;
     outline: none;
@@ -45,7 +45,7 @@ div.tab {
     position: relative;
     top: 15%
 }
-div.tab button {
+.tab button {
     background-color: transparent;
     font-size: 22px;
     float: left;
