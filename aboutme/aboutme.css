@@ -16,39 +16,62 @@ h1 {
     margin-left: auto;
     width: 100%;
 }
-div.flex-container {
+.mobile {
+    display: none;
+}
+.flex-container {
     display: flex;
 }
-div.flex-item-1 {
-    width: 500px;
-    height: 500px;
-    margin: auto;
-    position: relative;
-    top: -20px;
+.flex-item-1 {
+    display: inline-block;
+    /*width: 500px;*/
+    /*height: 500px;*/
+    /*margin: auto;*/
+    position: fixed;
+    top: 35%;
+    right: 25%;
 }
-div.flex-item-2 {
+.flex-item-2 {
+    background-color: gray;
     background-color: rgba(0,0,0,0.3);
-    width: 450px;
-    height: 300px;
+    width: 560px;
+    height: 420px;
     margin: auto;
-    font-size: 15px;
-    text-align: center;
-    position: relative;
-    top: -50px;
-    left: 100px;
+    font-size: 16px;
+    /*text-align: left;*/
+    position: fixed;
+    top: 22%;
+    left: 10%;
 }
-img.main {
-    margin: auto;
+.main {
+    /*margin: auto;*/
     transform: scale(1.2,1.2);
-    position: relative;
-    left: 65px;
-    top: 100px;
+    /*position: relative;*/
+    /*left: 65px;*/
+    /*top: 100px;*/
 }
-div.text {
-    position: relative;
-    top: 20px;
-    text-align: center;
+.text {
+    /*position: relative;
+    top: 20px;*/
+    text-align: left;
     padding: 20px;
+}
+a.gh-link {
+    color: white;
+}
+a.gh-link:link {
+    color: white;
+    transition-duration: 0.5s;
+}
+a.gh-link:visited {
+    color: white;
+}
+a.gh-link:hover {
+    color: black;
+}
+a.gh-link:active {
+    color: red;
+    transition-duration: 0s;
 }
 footer {
     position: fixed;
@@ -57,7 +80,7 @@ footer {
     width: 98%;
     height: 30px;
 }
-div.footerbox {
+.footerbox {
     text-align: center;
     font-size: 15px;
     margin: auto;
@@ -66,6 +89,7 @@ div.footerbox {
 }
 a.site-links {
     padding: 5px;
+    background-color: gray;
     background-color: rgba(0,0,0,0.7);
 }
 a.site-links:link {

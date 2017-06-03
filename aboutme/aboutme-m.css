@@ -14,79 +14,86 @@ h1 {
     position: relative;
     top: 60px;
 }
-div.flex-container {
+.laptop {
+    display: none;
+}
+.mobile {
+    display: inline-block;
+    margin: auto;
+}
+.flex-container {
     display: flex;
 }
-div.flex-item-1 {
+.flex-item-1 {
     /*background-color: white;*/
     width: 500px;
     height: 500px;
     margin: auto;
-    position: relative;
-    top: 60px;
+    /*position: relative;*/
+    /*top: 60px;*/
 }
-div.flex-item-2 {
-    background-color: rgba(0,0,0,0.15);
-    /*opacity: 0.5;*/
-    width: 450px;
-    height: 480px;
+.flex-item-2 {
+    background-color: gray;
+    background-color: rgba(0,0,0,0.3);
+    width: 900px;
+    height: 570px;
     margin: auto;
     font-size: 15px;
     text-align: center;
     position: relative;
-    top: 70px;
-    left: 80px;
-    /*padding-right: 50px;*/
+    top: -90px;
+    /*left: 80px;*/
 }
-img.main {
+.main {
     margin: auto;
     /*width: auto;*/
     /*height: auto;*/
-    transform: scale(1.2,1.2);
+    transform: scale(1.5,1.5);
     position: relative;
-    left: 155px;
+    left: 135px;
     top: 100px;
-    /*padding-left: 150px;*/
-    /*padding-right: 30px;*/
-    /*padding-top: 100px;*/
 }
-/*img.wreck {
-    position: relative;
-    margin: auto;
-    top: -30px;
-    transform: scale(0.5,0.5)
-}*/
-div.text {
+.text {
     position: relative;
     top: 20px;
-    text-align: center;
-    padding: 20px;
-    font-size: 20px;
+    text-align: left;
+    padding: 0 20px;
+    font-size: 22px;
 }
-/*img.img-2 {
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 115px;
-    padding-left: 40px;
-    padding-right: 40px;
-    transform: scale(1.2,1.2);
-}*/
+a.gh-link {
+    color: white;
+}
+a.gh-link:link {
+    color: white;
+    transition-duration: 0.5s;
+}
+a.gh-link:visited {
+    color: white;
+}
+a.gh-link:hover {
+    color: black;
+}
+a.gh-link:active {
+    color: red;
+    transition-duration: 0s;
+}
 footer {
     position: fixed;
-    bottom: 15px;
+    bottom: 30px;
     margin: auto;
     width: 100%;
     height: 30px;
 }
-div.footerbox {
+.footerbox {
     text-align: center;
-    font-size: 15px;
+    font-size: 30px;
     margin: auto;
     width: 400px;
     height: 20px;
 }
 a.site-links {
     padding: 5px;
+    background-color: black;
     background-color: rgba(0,0,0,0.7);
 }
 a.site-links:link {

@@ -10,6 +10,9 @@ h2 {
 hr {
     border-style: solid;
 }
+.top {
+    text-align: center;
+}
 .text {
     font-size: 12px;
 }
