@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    overflow: hidden;
 }
 body {
     background-image:  url("../images/transparent.png"), url("../images/tech.jpg");
