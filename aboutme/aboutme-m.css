@@ -1,7 +1,8 @@
 html {
     height: 100%;
-    overflow: scroll;
-    width: 100%
+    overflow-y: scroll;
+    /*width: 100%;*/
+    -webkit-overflow-scrolling: touch;
 }
 body {
     background-image:  url("../images/transparent.png"), url("../images/tech-m.jpg");
