@@ -9,5 +9,6 @@
   * Mobile Responsive Version of Site (gallery slideshows & page resizing)
 
 ## Coming Soon: 
+  * ~~Mobile Responsive Version of Site~~ 
   * Tablet Responsive Version of Site
  
