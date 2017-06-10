@@ -1,8 +1,14 @@
-#Personal Website Repo
+# Personal Website Repo
+  All code was written by the author
 
-#All code was written by the author
+## Phase 1 development: Summer 2017
+  * Addition of Home page (link embedding)
+  * Addition of Aboutme page (images & text)
+  * Addition of Resume page (text, link embedding, and downlaodable pdf copy of resume)
+  * Addition of Gallery page (images, text, and link embedding)
+  * Mobile Responsive Version of Site (gallery slideshows & page resizing)
 
-#Phase 1 development: Summer 2017
-
-#Coming Soon: 
-* Mobile Version of Site
+## Coming Soon: 
+  * ~~Mobile Responsive Version of Site~~ 
+  * Tablet Responsive Version of Site
+ 
