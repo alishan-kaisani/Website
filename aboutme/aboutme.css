@@ -59,6 +59,23 @@ h1 {
     text-align: left;
     padding: 22px 20px;
 }
+a.cur-proj {
+    color: white;
+}
+a.cur-proj:link {
+    color: white;
+    transition-duration: 0.5s;
+}
+a.cur-proj:visited {
+    color: white;
+}
+a.cur-proj:hover {
+    color: black;
+}
+a.cur-proj:active {
+    color: red;
+    transition-duration: 0s;
+}
 a.gh-link {
     color: white;
 }
