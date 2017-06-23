@@ -46,7 +46,8 @@ body {
     top: 15%
 }
 .tab button {
-    background-color: transparent;
+    background-color: gray;
+    background-color: rgba(0, 0, 0, 0.1);
     font-size: 22px;
     float: left;
     border: none;
