@@ -47,8 +47,14 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
-    margin:auto;
+    margin: auto;
     padding: 12px 14px;
+    margin-right: 5px;
+    transition-duration: 0.5s;
+}
+.tab button:hover {
+    background-color: gray;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 a.site-links {
     font-size: 24px;
