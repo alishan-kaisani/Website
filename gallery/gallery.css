@@ -19,7 +19,7 @@ hr {
 .mobile {
     display: none;
 }
-.gba-info, .bsnap-info {
+.gba-info, .bsnap-info, .math-info {
     text-align: justify;
 }
 .image-container {
@@ -27,17 +27,18 @@ hr {
 }
 .images {
     display: inline-block;
+    margin-bottom: 5px;
 }
-.gba-link:link {
+.gh-link:link {
     color: black;
 }
-.gba-link:hover {
+.gh-link:hover {
     color: green;
 }
-.gba-link:visited {
+.gh-link:visited {
     color: black;
 }
-.gba-link:active {
+.gh-link:active {
     color: red;
 }
 footer {

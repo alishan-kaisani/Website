@@ -66,7 +66,7 @@
         <div class="GBA-Game">
             <h2>GBA-Game (10/2016 - 12/2016)</h2>
             <div class="gba-info">
-                I worked on creating a Game Boy Advance game coded in C using standard libraries. A .gba file is available on my <a class="gba-link" href="http://github.com/alishan-kaisani/GBA-game"><b>github</b></a>. The game can be played using any standard GBA emulator.
+                I worked on creating a Game Boy Advance game coded in C using standard libraries. A .gba file is available on my <a class="gh-link" href="http://github.com/alishan-kaisani/GBA-game"><b>github</b></a>. The game can be played using any standard GBA emulator.
                 <br>
                 <br>
                 <b>Game Description</b>:
@@ -79,13 +79,13 @@
                 <br>
                 <b>Gameplay</b>:
                 <br>
-                * Eat all the cookies using your square player and avoid fires!
+                &#8226; Eat all the cookies using your square player and avoid fires!
                 <br>
-                * Eat 10 cookies and YOU WIN!
+                &#8226; Eat 10 cookies and YOU WIN!
                 <br>
-                * Press A to speed up & B to slow down again! (Very difficult to control)
+                &#8226; Press A to speed up & B to slow down again! (Very difficult to control)
                 <br>
-                * Scores start from 1 because everyone is a winner!
+                &#8226; Scores start from 1 because everyone is a winner!
                 <br>
                 <br>
                 <div class="laptop">
@@ -137,10 +137,75 @@
                 </div>
             </div>
         </div>
+        <hr>
+        <div class="math-matlab">
+            <h2>Math-in-Matlab (05/2016 - 06/2016)</h2>
+            <div class="math-info">
+                I created a library of matlab functions that perform simple recreational math tasks including showing iterative animations of Fractals. More details can be found on my <a class="gh-link" href="http://github.com/alishan-kaisani/Math-in-Matlab"><b>github</b></a>.
+                <br>
+                <br>
+                <b>Files created</b>:
+                <br>
+                &#8226; Chaos.m <br>
+                &#8226; Chaos4.m <br>
+                &#8226; Sierpinski.m <br>
+                <div class="laptop">
+                    <br>
+                </div>
+                <div class="laptop">
+                    <div class="image-container">
+                        <div id="math" class="images">
+                            <img src="../images/math/math-1.png" alt="Chaos.m" width="335" height="320"></img>
+                            <img src="../images/math/math-2.png" alt="Chaos4.m" width="335" height="320"></img>
+                            <!-- <br> -->
+                            <img src="../images/math/math-3.png" alt="Sierpinksi.m" width="335" height="320"></img>
+                            <!-- <img src="../images/math/math-4.png" alt="Math Image" width="325" height="250"></img> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile">
+                    <div class="math-slideshow-container">
+                        <div class="math-slides fade">
+                            <div class="numbertext">1 / 3</div>
+                            <img class="math-images" src="../images/math/math-1.png">
+                            <div class="text">Chaos.m</div>
+                        </div>
+
+                        <div class="math-slides fade">
+                          <div class="numbertext">2 / 3</div>
+                          <img class="math-images" src="../images/math/math-2.png">
+                          <div class="text">Chaos4.m</div>
+                        </div>
+
+                        <div class="math-slides fade">
+                            <div class="numbertext">3 / 3</div>
+                            <img class="math-images" src="../images/math/math-3.png">
+                            <div class="text">Sierpinski.m</div>
+                        </div>
+
+                        <!-- <div class="gba-slides fade">
+                            <div class="numbertext">4 / 4</div>
+                            <img class="gba-images" src="../images/math/math-4.png">
+                            <div class="text">Game Over Screen</div>
+                        </div> -->
+
+                      <a class="math-prev" onclick="plusSlides(-1,'math')">&#10094;</a>
+                      <a class="math-next" onclick="plusSlides(1,'math')">&#10095;</a>
+                    </div>
+                    <div style="text-align:center">
+                      <span class="math-dot" onclick="currentSlide(1,'math')"></span>
+                      <span class="math-dot" onclick="currentSlide(2,'math')"></span>
+                      <span class="math-dot" onclick="currentSlide(3,'math')"></span>
+                      <!-- <span class="math-dot" onclick="currentSlide(4,'math')"></span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
         <script>
             var slideIndex = 1;
             showSlides(slideIndex,"gba");
-            showSlides(slideIndex,"bs")
+            showSlides(slideIndex,"bs");
+            showSlides(slideIndex,"math");
 
             function plusSlides(n,type) {
               showSlides(slideIndex += n,type);

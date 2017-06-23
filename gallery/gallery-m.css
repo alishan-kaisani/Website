@@ -27,6 +27,10 @@ hr {
     width: 650px;
     height: 500px;
 }
+.math-images {
+    width: 650px;
+    height: 700px;
+}
 /* Slideshow container */
 .bs-slideshow-container {
   max-width: 655px;
@@ -38,8 +42,13 @@ hr {
     position: relative;
     margin: auto;
 }
+.math-slideshow-container {
+    max-width: 655px;
+    position: relative;
+    margin: auto;
+}
 /* Next & previous buttons */
-.bs-prev,.gba-prev,.bs-next,.gba-next {
+.bs-prev,.gba-prev,.bs-next,.gba-next,.math-prev,.math-next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -69,6 +78,10 @@ hr {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
+.math-next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
 /* Caption text */
 .text {
   color: black;
@@ -85,7 +98,7 @@ hr {
 }
 
 /* The dots/bullets/indicators */
-.bs-dot, .gba-dot {
+.bs-dot, .gba-dot, .math-dot {
   cursor:pointer;
   height: 30px;
   width: 30px;
@@ -95,7 +108,7 @@ hr {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-.active, .bs-dot:hover, .gba-dot:hover {
+.active, .bs-dot:hover, .gba-dot:hover, .math-dot:hover {
   background-color: #717171;
 }
 /* Fading animation */
@@ -115,7 +128,7 @@ hr {
   from {opacity: .4}
   to {opacity: 1}
 }
-.gba-info, .bsnap-info {
+.gba-info, .bsnap-info, .math-info {
     text-align: justify;
 }
 .image-container {
@@ -124,16 +137,16 @@ hr {
 .images {
     display: inline-block;
 }
-.gba-link:link {
+.gh-link:link {
     color: black;
 }
-.gba-link:hover {
+.gh-link:hover {
     color: green;
 }
-.gba-link:visited {
+.gh-link:visited {
     color: black;
 }
-.gba-link:active {
+.gh-link:active {
     color: red;
 }
 footer {
