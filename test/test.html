@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
     <head>
         <title>Test Page</title>
@@ -41,7 +41,26 @@
         var slideIndex = 1;
         showSlides(slideIndex,"bs");
 
-        new Dragend(document.getElementById("dragend"), {direction: "horizontal"});
+        new Dragend(document.getElementById("dragend"), {
+          pageClass          : "dragend-page",
+          direction          : "horizontal",
+        //   minDragDistance    : "40",
+        //   onSwipeStart       : noop,
+        //   onSwipeEnd         : noop,
+        //   onDragStart        : noop,
+        //   onDrag             : noop,
+        //   onDragEnd          : noop,
+        //   afterInitialize    : noop,
+        //   keyboardNavigation : false,
+        //   stopPropagation    : false,
+        //   itemsInPage        : 1,
+        //   scribe             : 0,
+        //   page               : 1,
+        //   borderBetweenPages : 0,
+        //   duration           : 300,
+        //   preventDrag        : false,
+        //   disableScroll      : false
+        });
 
         function plusSlides(n,type) {
           showSlides(slideIndex += n,type);
