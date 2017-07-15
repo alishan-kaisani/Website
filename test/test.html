@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Page</title>
+        <link rel="stylesheet" type="text/css" href="../normalize.css">
+    </head>
+    <body>
+
+    <div class="mobile">
+        <div class="bs-slideshow-container">
+            <div class="bs-slides fade">
+                <div class="numbertext">1 / 2</div>
+                <img class="bs-images" src="../images/beesnap/beesnap-1.png">
+                <div class="text">Questionaire based on dichotomous key</div>
+          </div>
+
+          <div class="bs-slides fade">
+            <div class="numbertext">2 / 2</div>
+            <img class="bs-images" src="../images/beesnap/beesnap-2.png">
+            <div class="text">Home page with camera functionality demonstrated</div>
+          </div>
+
+          <a class="bs-prev" onclick="plusSlides(-1, 'bs')">&#10094;</a>
+          <a class="bs-next" onclick="plusSlides(1, 'bs')">&#10095;</a>
+        </div>
+
+        <div style="text-align:center">
+          <span class="bs-dot" onclick="currentSlide(1, 'bs')"></span>
+          <span class="bs-dot" onclick="currentSlide(2, 'bs')"></span>
+        </div>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex,"bs");
+    
+        function plusSlides(n,type) {
+          showSlides(slideIndex += n,type);
+        }
+
+        function currentSlide(n,type) {
+          showSlides(slideIndex = n,type);
+        }
+
+        function showSlides(n, type) {
+          var i;
+          var slides = document.getElementsByClassName(type+"-slides");
+          var dots = document.getElementsByClassName(type+"-dot");
+          if (n > slides.length) {
+              slideIndex = 1
+          }
+          if (n < 1) {
+              slideIndex = slides.length
+          }
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+        }
+    </script>
+
+    </body>
+</html>
