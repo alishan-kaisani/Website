@@ -3,6 +3,8 @@
     <head>
         <title>Test Page</title>
         <link rel="stylesheet" type="text/css" href="../normalize.css">
+        <link rel="stylesheet" href=gallery-m.css>
+        <!-- media="screen and (max-device-width:600px)" -->
     </head>
     <body>
 
@@ -33,7 +35,9 @@
     <script>
         var slideIndex = 1;
         showSlides(slideIndex,"bs");
-    
+
+        new Dragend(document.getElementById("bs-slideshow-container"), {direction: "horizontal"});
+
         function plusSlides(n,type) {
           showSlides(slideIndex += n,type);
         }
