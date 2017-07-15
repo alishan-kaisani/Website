@@ -1,0 +1,274 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Gallery</title>
+        <link rel="stylesheet" type="text/css" href="../normalize.css" media="screen and (min-device-width: 601px)">
+        <link rel="stylesheet" href=gallery.css media="screen and (min-device-width: 601px)">
+        <link rel="stylesheet" href=gallery-m.css media="screen and (max-device-width:600px)">
+        <link rel="icon" type="image/ico" href="../images/icon.ico">
+        <script src="dragend.js"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-101545164-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </head>
+    <body>
+        <h1>Gallery</h1>
+        <div id="beesnap" class="BeeSnap">
+            <h2>BeeSnap App (01/2017 - Present)</h2>
+            <div class="bsnap-info">
+                <b>Purpose</b>: The purpose of this project is to design a web application for K-12 Students to classify types of bees for educational purposes. The intention is that the app will include a dichotomous key that will make it easier for students to identify the bees that they encounter. Ultimately, students will be able to take pictures of bees that will be geotagged and sent along with information from the dichotomous key to our database. Since the targeted audience is younger school children, the UI of the application is very streamlined and minimalistic to allow for easy, focused and intuitive user experience.
+                <br>
+                <br>
+                <b>Design</b>: This web app is being built in Angular 1.0. AngularJS is the web application framework we are using in order to allow for easier front-end and back-end integration. The group works in a collaborative Agile method in designing the app.
+                <br>
+                <br>
+                <b>Spring 2017</b>: I worked on the CS team (database-subteam). I created the relevant tables and added in the dichotomous key data (stored as bitstrings) into the tables. I assisted team members in debugging the integration of the camera functionality into the app.
+                <br>
+                <br>
+                <div class="laptop">
+                    <div class="image-container">
+                        <div id="bsnap" class="images">
+                            <img src="../images/beesnap/beesnap-1.png" alt="beesnap app in use" width="320" height="551"></img>
+                            <img src="../images/beesnap/beesnap-2.png" alt="beesnap app in use" width="320" height="551"></img>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile">
+                    <div class="bs-slideshow-container">
+                        <div id="dragend">
+                        <div class="bs-slides fade">
+                            <div class="numbertext">1 / 2</div>
+                            <div class="dragend-page">
+                                <img class="bs-images" src="../images/beesnap/beesnap-1.png">
+                            </div>
+                            <div class="text">Questionaire based on dichotomous key</div>
+                      </div>
+
+                      <div class="bs-slides fade">
+                        <div class="numbertext">2 / 2</div>
+                        <div class="dragend-page">
+                            <img class="bs-images" src="../images/beesnap/beesnap-2.png">
+                        </div>
+                        <div class="text">Home page with camera functionality demonstrated</div>
+                      </div>
+
+                      <a class="bs-prev" onclick="plusSlides(-1, 'bs')">&#10094;</a>
+                      <a class="bs-next" onclick="plusSlides(1, 'bs')">&#10095;</a>
+                    </div>
+
+                    <div style="text-align:center">
+                      <span class="bs-dot" onclick="currentSlide(1, 'bs')"></span>
+                      <span class="bs-dot" onclick="currentSlide(2, 'bs')"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="GBA-Game">
+            <h2>GBA-Game (10/2016 - 12/2016)</h2>
+            <div class="gba-info">
+                I worked on creating a Game Boy Advance game coded in C using standard libraries. A .gba file is available on my <a class="gh-link" href="http://github.com/alishan-kaisani/GBA-game"><b>github</b></a>. The game can be played using any standard GBA emulator.
+                <br>
+                <br>
+                <b>Game Description</b>:
+                <br>
+                PUT OUT THE FIRE!
+                <br>
+                <br>
+                The fire department needs your help! They need a way to be guided to all of the wild fires happening around town. Use your Fire-Proof dog to guide them to all the fires by chasing the arson's mark: cookies!
+                <br>
+                <br>
+                <b>Gameplay</b>:
+                <br>
+                &#8226; Eat all the cookies using your square player and avoid fires!
+                <br>
+                &#8226; Eat 10 cookies and YOU WIN!
+                <br>
+                &#8226; Press A to speed up & B to slow down again! (Very difficult to control)
+                <br>
+                &#8226; Scores start from 1 because everyone is a winner!
+                <br>
+                <br>
+                <div class="laptop">
+                    <div class="image-container">
+                        <div id="gba" class="images">
+                            <img src="../images/snake/snake-4.png" alt="GBA gameplay" width="325" height="250"></img>
+                            <img src="../images/snake/snake-1.png" alt="GBA gameplay" width="325" height="250"></img>
+                            <br>
+                            <img src="../images/snake/snake-2.png" alt="GBA gameplay" width="325" height="250"></img>
+                            <img src="../images/snake/snake-3.png" alt="GBA gameplay" width="325" height="250"></img>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile">
+                    <div class="gba-slideshow-container">
+                        <div class="gba-slides fade">
+                            <div class="numbertext">1 / 4</div>
+                            <img class="gba-images" src="../images/snake/snake-4.png">
+                            <div class="text">Start Screen</div>
+                        </div>
+
+                        <div class="gba-slides fade">
+                          <div class="numbertext">2 / 4</div>
+                          <img class="gba-images" src="../images/snake/snake-1.png">
+                          <div class="text">Game Play</div>
+                        </div>
+
+                        <div class="gba-slides fade">
+                            <div class="numbertext">3 / 4</div>
+                            <img class="gba-images" src="../images/snake/snake-2.png">
+                            <div class="text">Game Play</div>
+                        </div>
+
+                        <div class="gba-slides fade">
+                            <div class="numbertext">4 / 4</div>
+                            <img class="gba-images" src="../images/snake/snake-3.png">
+                            <div class="text">Game Over Screen</div>
+                        </div>
+
+                      <a class="gba-prev" onclick="plusSlides(-1,'gba')">&#10094;</a>
+                      <a class="gba-next" onclick="plusSlides(1,'gba')">&#10095;</a>
+                    </div>
+                    <div style="text-align:center">
+                      <span class="gba-dot" onclick="currentSlide(1,'gba')"></span>
+                      <span class="gba-dot" onclick="currentSlide(2,'gba')"></span>
+                      <span class="gba-dot" onclick="currentSlide(3,'gba')"></span>
+                      <span class="gba-dot" onclick="currentSlide(4,'gba')"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="math-matlab">
+            <h2>Math-in-Matlab (05/2016 - 06/2016)</h2>
+            <div class="math-info">
+                I created a library of matlab functions that perform simple recreational math tasks including showing iterative animations of Fractals. More details can be found on my <a class="gh-link" href="http://github.com/alishan-kaisani/Math-in-Matlab"><b>github</b></a>.
+                <br>
+                <br>
+                <b>Files created</b>:
+                <br>
+                &#8226; Chaos.m <br>
+                &#8226; Chaos4.m <br>
+                &#8226; Sierpinski.m <br>
+                <div class="laptop">
+                    <br>
+                </div>
+                <div class="laptop">
+                    <div class="image-container">
+                        <div id="math" class="images">
+                            <img src="../images/math/math-1.png" alt="Chaos.m" width="335" height="320"></img>
+                            <img src="../images/math/math-2.png" alt="Chaos4.m" width="335" height="320"></img>
+                            <!-- <br> -->
+                            <img src="../images/math/math-3.png" alt="Sierpinksi.m" width="335" height="320"></img>
+                            <!-- <img src="../images/math/math-4.png" alt="Math Image" width="325" height="250"></img> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile">
+                    <div class="math-slideshow-container">
+                        <div class="math-slides fade">
+                            <div class="numbertext">1 / 3</div>
+                            <img class="math-images" src="../images/math/math-1.png">
+                            <div class="text">Chaos.m</div>
+                        </div>
+
+                        <div class="math-slides fade">
+                          <div class="numbertext">2 / 3</div>
+                          <img class="math-images" src="../images/math/math-2.png">
+                          <div class="text">Chaos4.m</div>
+                        </div>
+
+                        <div class="math-slides fade">
+                            <div class="numbertext">3 / 3</div>
+                            <img class="math-images" src="../images/math/math-3.png">
+                            <div class="text">Sierpinski.m</div>
+                        </div>
+
+                        <!-- <div class="gba-slides fade">
+                            <div class="numbertext">4 / 4</div>
+                            <img class="gba-images" src="../images/math/math-4.png">
+                            <div class="text">Game Over Screen</div>
+                        </div> -->
+
+                      <a class="math-prev" onclick="plusSlides(-1,'math')">&#10094;</a>
+                      <a class="math-next" onclick="plusSlides(1,'math')">&#10095;</a>
+                    </div>
+                    <div style="text-align:center">
+                      <span class="math-dot" onclick="currentSlide(1,'math')"></span>
+                      <span class="math-dot" onclick="currentSlide(2,'math')"></span>
+                      <span class="math-dot" onclick="currentSlide(3,'math')"></span>
+                      <!-- <span class="math-dot" onclick="currentSlide(4,'math')"></span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex,"gba");
+            showSlides(slideIndex,"bs");
+            showSlides(slideIndex,"math");
+
+            new Dragend(document.getElementById("dragend"), {
+              pageClass          : "dragend-page",
+              direction          : "horizontal",
+              minDragDistance    : "40",
+            //   onSwipeStart       : noop,
+            //   onSwipeEnd         : noop,
+            //   onDragStart        : noop,
+            //   onDrag             : noop,
+            //   onDragEnd          : noop,
+            //   afterInitialize    : noop,
+              keyboardNavigation : false,
+              stopPropagation    : false,
+              itemsInPage        : 1,
+              scribe             : 0,
+              page               : 2,
+              borderBetweenPages : 0,
+              duration           : 300,
+              preventDrag        : false,
+              disableScroll      : false
+            });
+            function plusSlides(n,type) {
+              showSlides(slideIndex += n,type);
+            }
+
+            function currentSlide(n,type) {
+              showSlides(slideIndex = n,type);
+            }
+
+            function showSlides(n, type) {
+              var i;
+              var slides = document.getElementsByClassName(type+"-slides");
+              var dots = document.getElementsByClassName(type+"-dot");
+              if (n > slides.length) {
+                  slideIndex = 1
+              }
+              if (n < 1) {
+                  slideIndex = slides.length
+              }
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+            }
+        </script>
+    </body>
+    <footer>
+        <hr>
+        <div class="footerbox">
+            <a class="site-links" href="../home/home.html">Home</a>
+            <a class="site-links" href="../aboutme/aboutme.html">About</a>
+            <a class="site-links" href="../resume/resume.html">Resume</a>
+        </div>
+    </footer>
+</html>
