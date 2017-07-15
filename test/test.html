@@ -9,16 +9,20 @@
     <body>
 
     <div class="mobile">
-        <div class="bs-slideshow-container">
+        <div id="dragend" class="bs-slideshow-container">
             <div class="bs-slides fade">
                 <div class="numbertext">1 / 2</div>
-                <img class="bs-images" src="../images/beesnap/beesnap-1.png">
+                <div class="dragend-page">
+                    <img class="bs-images" src="../images/beesnap/beesnap-1.png">
+                </div>
                 <div class="text">Questionaire based on dichotomous key</div>
           </div>
 
           <div class="bs-slides fade">
             <div class="numbertext">2 / 2</div>
-            <img class="bs-images" src="../images/beesnap/beesnap-2.png">
+            <div class="dragend-page">
+                <img class="bs-images" src="../images/beesnap/beesnap-2.png">
+            </div>
             <div class="text">Home page with camera functionality demonstrated</div>
           </div>
 
@@ -36,11 +40,8 @@
         var slideIndex = 1;
         showSlides(slideIndex,"bs");
 
-<<<<<<< HEAD
-        new Dragend(document.getElementById("bs-slideshow-container"), {direction: "horizontal"});
+        new Dragend(document.getElementById("dragend"), {direction: "horizontal"});
 
-=======
->>>>>>> a8297d5774ead3c259b58162b24d097da5766891
         function plusSlides(n,type) {
           showSlides(slideIndex += n,type);
         }
