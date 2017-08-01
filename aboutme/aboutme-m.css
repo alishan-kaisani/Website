@@ -31,7 +31,7 @@ h1 {
 .flex-item-1 {
     /*background-color: white;*/
     width: 500px;
-    height: 370px;
+    height: 500px;
     padding-bottom: 150px;
     margin: auto;
     /*position: relative;*/
@@ -41,7 +41,7 @@ h1 {
     background-color: gray;
     background-color: rgba(0,0,0,0.3);
     width: 900px;
-    height: 570px;
+    height: 580px;
     margin: auto;
     font-size: 15px;
     text-align: center;
@@ -53,17 +53,17 @@ h1 {
     margin: auto;
     /*width: auto;*/
     /*height: auto;*/
-    transform: scale(1.2,1.2);
+    transform: scale(1.3,1.3);
     position: relative;
     left: 20%;
-    top: 10%;
+    top: 20%;
 }
 .text {
     position: relative;
     top: 20px;
     text-align: left;
     padding: 0 20px;
-    font-size: 22px;
+    font-size: 23px;
 }
 a.cur-proj {
     color: white;
