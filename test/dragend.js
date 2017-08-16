@@ -246,6 +246,7 @@
       this.settings      = extend( defaultSettingsCopy, settings );
       this.container     = container;
       this.pageContainer = doc.createElement( "div" );
+      this.pageContainer.setAttribute("id", "swipeWrapper");
       this.scrollBorder  = { x: 0, y: 0 };
       this.page          = 0;
       this.preventScroll = false;
