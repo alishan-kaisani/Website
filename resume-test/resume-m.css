@@ -1,0 +1,53 @@
+body {
+    background-color: #b3e6ff;
+    color: #1f1f1f;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+hr {
+    border-style: solid;
+}
+.top {
+    text-align: center;
+}
+.linkedin {
+    height: 80px;
+    width: 80px;
+}
+footer {
+    bottom: 5px;
+    height: 30px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+}
+.footerbox {
+    font-size: 30px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+    width: 400px;
+}
+a.site-links {
+    background-color: gray;
+    background-color: rgba(0,0,0,0.7);
+    padding: 5px;
+}
+a.site-links:link {
+    color: green;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+a.site-links:visited {
+    color: white;
+    text-decoration: none;
+}
+a.site-links:hover {
+    color: green;
+    text-decoration: none;
+}
+a.site-links:active {
+    color: red;
+    text-decoration: none;
+    transition-duration: 0s;
+}
