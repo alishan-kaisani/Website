@@ -1,0 +1,5 @@
+Color Values used throughout site for standardization
+
+GT-gold: #E0B872
+Dark Gray/Black: #4F4958
+Cloud-White: #dcdad6
