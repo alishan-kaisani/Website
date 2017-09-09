@@ -1,17 +1,24 @@
 html {
-    width: 80%;
     margin: auto;
+    width: 80%;
 }
 body {
-    background-color: #b3e6ff;
+    background-color: #9fbfd7;
     background-image: url("../images/arabesque.png");
     color: #1f1f1f;
     font-family: "Lato", sans-serif;
     font-size: 17px;
 }
 h1 {
-    text-align: center;
+    color: #00254C;
     font-size: 40px;
+    text-align: center;
+}
+h2 {
+    color: #00254C;
+}
+.sub-header {
+    color: white;
 }
 hr {
     border-style: dashed;
@@ -19,7 +26,7 @@ hr {
 .mobile {
     display: none;
 }
-.gba-info, .bsnap-info, .math-info {
+.gba-info, .bsnap-info, .math-info, .hess-info {
     text-align: justify;
 }
 .image-container {
@@ -29,36 +36,36 @@ hr {
     display: inline-block;
     margin-bottom: 5px;
 }
-.gh-link:link {
+.gh-link:link,.hess-link:link {
     color: black;
 }
-.gh-link:hover {
+.gh-link:hover,.hess-link:hover {
     color: green;
 }
-.gh-link:visited {
+.gh-link:visited,.hess-link:visited {
     color: black;
 }
-.gh-link:active {
+.gh-link:active,.hess-link:active {
     color: red;
 }
 footer {
-    position: relative;
     bottom: 10px;
-    margin: auto;
-    width: 100%;
     height: 30px;
+    margin: auto;
+    position: relative;
+    width: 100%;
 }
 .footerbox {
-    text-align: center;
     font-size: 15px;
-    margin: auto;
-    width: 400px;
     height: 20px;
+    margin: auto;
+    text-align: center;
+    width: 400px;
 }
 a.site-links {
-    padding: 5px;
     background-color: gray;
     background-color: rgba(0,0,0,0.7);
+    padding: 5px;
 }
 a.site-links:link {
     color: green;
