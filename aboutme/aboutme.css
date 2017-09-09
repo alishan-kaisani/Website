@@ -3,20 +3,28 @@ html {
     overflow: hidden;
 }
 body {
-    background-image:  url("../images/transparent.png"), url("../images/tech.jpg");
+    background-color: #8bacbb;
+    background-image: url("../images/transparent.png"), url("../images/tech.jpg");
     background-size: cover, cover;
-    background-color: lightblue;
     color: white;
     font-family: "Lato", sans-serif;
 }
+.gt-text {
+    /*gt-gold*/
+    color: #E0B872;
+}
+.header {
+    /*cloud-white*/
+    color: #dcdad6;
+}
 h1 {
     color: gray;
-    color: rgba(0,0,0,0.55);
-    text-align: center;
+    color: #4F4958; /*Dark gray/black*/
     font-size: 50px;
-    position: relative;
-    top: 15px;
     margin-left: auto;
+    position: relative;
+    text-align: center;
+    top: 15px;
     width: 100%;
 }
 .mobile {
@@ -27,49 +35,49 @@ h1 {
 }
 .flex-item-1 {
     display: inline-block;
-    /*width: 500px;*/
     /*height: 500px;*/
     /*margin: auto;*/
     position: fixed;
-    top: 30%;
     right: 20%;
+    top: 30%;
+    /*width: 500px;*/
 }
 .flex-item-2 {
     background-color: gray;
     background-color: rgba(0,0,0,0.3);
-    width: 560px;
-    height: 430px;
-    margin: auto;
     font-size: 16px;
-    /*text-align: left;*/
-    position: fixed;
-    top: 22%;
+    height: 430px;
     left: 10%;
+    margin: auto;
+    position: fixed;
+    /*text-align: left;*/
+    top: 22%;
+    width: 560px;
 }
 .main {
-    /*margin: auto;*/
-    /*width: 300px;*/
-    /*height: 300px;*/
-    transform: scale(1,1.0);
-    position: relative;
-    /*left: 65px;*/
     /*bottom: 30px;*/
+    /*height: 300px;*/
+    /*left: 65px;*/
+    /*margin: auto;*/
+    position: relative;
+    transform: scale(1,1.0);
+    /*width: 300px;*/
 }
 .text {
-    /*position: relative;
-    top: 20px;*/
-    text-align: left;
     padding: 22px 20px;
+    /*position: relative;*/
+    text-align: left;
+    /*top: 20px;*/
 }
 a.cur-proj {
-    color: white;
+    color: #E0B872;
 }
 a.cur-proj:link {
-    color: white;
+    color: #E0B872;
     transition-duration: 0.5s;
 }
 a.cur-proj:visited {
-    color: white;
+    color: #E0B872;
 }
 a.cur-proj:hover {
     color: black;
@@ -79,14 +87,14 @@ a.cur-proj:active {
     transition-duration: 0s;
 }
 a.gh-link {
-    color: white;
+    color: #E0B872;
 }
 a.gh-link:link {
-    color: white;
+    color: #E0B872;
     transition-duration: 0.5s;
 }
 a.gh-link:visited {
-    color: white;
+    color: #E0B872;
 }
 a.gh-link:hover {
     color: black;
@@ -96,24 +104,24 @@ a.gh-link:active {
     transition-duration: 0s;
 }
 footer {
-    position: fixed;
-    left: 1%;
     bottom: 15px;
-    /*margin: auto;*/
-    width: 98%;
     height: 30px;
+    left: 1%;
+    /*margin: auto;*/
+    position: fixed;
+    width: 98%;
 }
 .footerbox {
-    text-align: center;
     font-size: 15px;
-    margin: auto;
-    width: 400px;
     height: 20px;
+    margin: auto;
+    text-align: center;
+    width: 400px;
 }
 a.site-links {
-    padding: 5px;
     background-color: gray;
     background-color: rgba(0,0,0,0.7);
+    padding: 5px;
 }
 a.site-links:link {
     color: white;
