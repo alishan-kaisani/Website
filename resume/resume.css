@@ -3,10 +3,28 @@ html {
     width: 80%;
 }
 body {
-    background-color: #8bacbb;
+    background-color: #9fbfd7;
     color: #1f1f1f;
     font-family: "Lato", sans-serif;
     font-size: 1.3vw;
+}
+.top {
+    height: 2vh;
+}
+.no-show {
+    display: none;
+}
+.laptop {
+    /*height: 100vh;*/
+    /*margin: auto;*/
+    text-align: center;
+}
+.mobile {
+    display: none;
+}
+.plugin {
+    height: 90vh;
+    width: 80%;
 }
 h1 {
     text-align: center;

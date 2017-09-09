@@ -10,6 +10,24 @@ h2 {
 hr {
     border-style: solid;
 }
+.no-show {
+    display: none;
+}
+.mobile {
+    text-align: center;
+    margin: auto;
+    padding-top: 2vh;
+}
+.resume {
+    width: 100%;
+    height: 100%;
+}
+.laptop {
+    display: none;
+}
+.plugin {
+    display: none;
+}
 .top {
     text-align: center;
 }

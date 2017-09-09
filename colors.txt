@@ -4,4 +4,7 @@ GT-gold: #E0B872 (GT-brand)
 GT-blue: #00254C
 Dark Gray/Black: #4F4958 (Color-Seed)
 Cloud-White: #dcdad6 (Aboutme Clouds)
-Dark-sky color: #8bacbb (Aboutme sky)
+Dark-sky color:
+#96b4c0 -150,180,192 (Aboutme sky)
+#a8caed - 168,202,237 (Home sky)
+#9fbfd7 - 159,191, 215  (Average)
