@@ -1,5 +1,6 @@
 Color Values used throughout site for standardization
 
-GT-gold: #E0B872
-Dark Gray/Black: #4F4958
-Cloud-White: #dcdad6
+GT-gold: #E0B872 (GT-brand)
+Dark Gray/Black: #4F4958 (Color-Seed)
+Cloud-White: #dcdad6 (Aboutme Clouds)
+Dark-sky color: #8bacbb (Aboutme sky)
