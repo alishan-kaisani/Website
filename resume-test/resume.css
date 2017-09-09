@@ -12,10 +12,13 @@ body {
 .top {
     height: 2vh;
 }
-.embed {
+.laptop {
     /*height: 100vh;*/
     /*margin: auto;*/
     text-align: center;
+}
+.mobile {
+    display: none;
 }
 .plugin {
     height: 90vh;

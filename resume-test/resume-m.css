@@ -7,13 +7,17 @@ body {
 hr {
     border-style: solid;
 }
+.laptop {
+    display: none;
+}
 .top {
     height: 2vh;
 }
-.embed {
-    /*height: 100vh;*/
+.mobile {
+    height: 70vh;
     /*margin: auto;*/
     text-align: center;
+    width: 100vw;
 }
 .plugin {
     height: 90vh;
