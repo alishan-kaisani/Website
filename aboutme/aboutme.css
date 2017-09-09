@@ -10,16 +10,14 @@ body {
     font-family: "Lato", sans-serif;
 }
 .gt-text {
-    /*gt-gold*/
     color: #E0B872;
 }
 .header {
-    /*cloud-white*/
     color: #dcdad6;
 }
 h1 {
     color: gray;
-    color: #4F4958; /*Dark gray/black*/
+    color: #00254C;
     font-size: 50px;
     margin-left: auto;
     position: relative;

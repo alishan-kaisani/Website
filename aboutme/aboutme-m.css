@@ -12,15 +12,13 @@ body {
     font-family: "Lato", sans-serif;
 }
 .gt-text {
-    /*gt-gold*/
     color: #E0B872;
 }
 .header {
-    /*cloud-white*/
     color: #dcdad6;
 }
 h1 {
-    color: #4F4958;
+    color: #00254C;
     font-size: 80px;
     position: relative;
     text-align: center;
