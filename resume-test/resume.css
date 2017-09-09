@@ -3,15 +3,18 @@ html {
     width: 80%;
 }
 body {
-    background-color: #b3e6ff;
+    background-color: #8bacbb;
     color: #1f1f1f;
     font-family: "Lato", sans-serif;
     font-size: 1.3vw;
     overflow-y: hidden;
 }
+.top {
+    height: 2vh;
+}
 .embed {
     /*height: 100vh;*/
-    margin: auto;
+    /*margin: auto;*/
     text-align: center;
 }
 .plugin {
