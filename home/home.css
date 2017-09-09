@@ -7,7 +7,7 @@ body {
     background-size: cover;
     background-color: lightblue;
     height: 100%;
-    color: #1f1f1f;
+    color: #00254C;
     font-family: "Lato", sans-serif;
 }
 .title {
@@ -60,12 +60,12 @@ a.site-links {
     font-size: 24px;
 }
 a.site-links:link {
-    color: black;
+    color: #00254C;
     text-decoration: none;
     transition-duration: 0.5s;
 }
 a.site-links:visited {
-    color: black;
+    color: #00254C;
     text-decoration: none;
 }
 a.site-links:hover {
