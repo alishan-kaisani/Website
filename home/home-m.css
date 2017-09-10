@@ -7,7 +7,7 @@ body {
     background-size: cover;
     background-color: lightblue;
     height: 100%;
-    color: #1f1f1f;
+    color: #00254C;
     font-family: "Lato", sans-serif;
 }
 .title {
@@ -38,7 +38,7 @@ body {
     border: none;
     background-color: transparent;
     outline: none;
-    width: 500px;
+    width: 510px;
     height: 45px;
     margin: auto;
     /*padding-left: 25px;*/
