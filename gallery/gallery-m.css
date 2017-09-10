@@ -3,21 +3,32 @@ html {
     width: 80%;
 }
 body {
-    background-color: #b3e6ff;
-    background-image: url("../images/arabesque.png");
+    background-color: #9fbfd7;
+    /*background-image: url("../images/arabesque.png");*/
     color: #1f1f1f;
     font-family: "Lato", sans-serif;
     font-size: 17px;
 }
 h1 {
+    color: #00254C;
     font-size: 70px;
     text-align: center;
+}
+h2 {
+    color: #00254C;
+}
+.sub-header {
+    color: white;
 }
 hr {
     border-style: dashed;
 }
 .laptop {
     display: none;
+}
+.hess-images {
+    height: 535px;
+    width: 650px;
 }
 .bs-images {
     height: 1100px;
@@ -47,8 +58,13 @@ hr {
     max-width: 655px;
     position: relative;
 }
+.hess-slideshow-container {
+    margin: auto;
+    max-width: 650px;
+    position: relative;
+}
 /* Next & previous buttons */
-.bs-prev,.gba-prev,.bs-next,.gba-next,.math-prev,.math-next {
+.bs-prev,.gba-prev,.bs-next,.gba-next,.math-prev,.math-next, .hess-prev,.hess-next{
   border-radius: 0 3px 3px 0;
   color: black;
   cursor: pointer;
@@ -61,6 +77,9 @@ hr {
   transition: 0.6s ease;
   width: auto;
 }
+.hess-prev,.hess-next {
+    top: 40%;
+}
 .gba-prev,.gba-next {
     background-color: black;
     background-color: rgba(0,0,0,0.4);
@@ -70,17 +89,9 @@ hr {
     top: 40%;
 }
 /* Position the "next button" to the right */
-.bs-next {
+.bs-next,.gba-next,.math-next,.hess-next {
   border-radius: 3px 0 0 3px;
   right: 0;
-}
-.gba-next {
-  border-radius: 3px 0 0 3px;
-  right: 0;
-}
-.math-next {
-    border-radius: 3px 0 0 3px;
-    right: 0;
 }
 /* Caption text */
 .text {
@@ -98,7 +109,7 @@ hr {
 }
 
 /* The dots/bullets/indicators */
-.bs-dot, .gba-dot, .math-dot {
+.bs-dot, .gba-dot, .math-dot, .hess-dot {
   background-color: #bbb;
   border-radius: 50%;
   cursor:pointer;
@@ -128,7 +139,7 @@ hr {
   from {opacity: .4}
   to {opacity: 1}
 }
-.gba-info, .bsnap-info, .math-info {
+.gba-info, .bsnap-info, .math-info, .hess-info {
     text-align: justify;
 }
 .image-container {
@@ -137,16 +148,16 @@ hr {
 .images {
     display: inline-block;
 }
-.gh-link:link {
+.gh-link:link, .hess-link {
     color: black;
 }
-.gh-link:hover {
+.gh-link:hover, .hess-link {
     color: green;
 }
-.gh-link:visited {
+.gh-link:visited, .hess-link {
     color: black;
 }
-.gh-link:active {
+.gh-link:active, .hess-link {
     color: red;
 }
 footer {

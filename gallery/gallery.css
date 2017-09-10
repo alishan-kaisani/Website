@@ -4,7 +4,7 @@ html {
 }
 body {
     background-color: #9fbfd7;
-    background-image: url("../images/arabesque.png");
+    /*background-image: url("../images/arabesque.png");*/
     color: #1f1f1f;
     font-family: "Lato", sans-serif;
     font-size: 17px;
